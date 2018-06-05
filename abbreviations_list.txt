@@ -1,0 +1,48 @@
+r;roku;roków;roki;rokach;rokami;rok;rokowi;rokom;rokiem
+zł;złotemu;złoto;złotego;złotych;złotym;złotej;złoty;złotą;złotymi;złoci;złote;złota
+tys;tysiąca;tysiące;tysiącem;tysiącom;tysiącach;tysiącu;tysiącami;tysiącowi;tysięcy;tysiąc
+proc;procentach;procent;procentom;procentu;procentów;procencie;procentem;procenta;procentami;procentowi;procenty
+ust;ustępami;ustępowi;ustęp;ustępom;ustępem;ustępach;ustępu;ustępie;ustępy;ustępów
+art;artykułu;artykuł;artykułów;artykułem;artykuły;artykułach;artykule;artykułowi;artykułom;artykułami
+np;na przykład
+ul;ulicami;ulicę;ulico;ulica;ulicy;ulicach;ulice;ulicom;ulic;ulicą
+m.in;między innymi
+ok;około
+nr;numerach;numerami;numerów;numer;numerowi;numerem;numerze;numery;numeru;numerom
+mln;miliona;milionem;milionami;milion;miliony;milionom;milionowi;milionie;milionów;milionach
+m;metrów;metrach;metrem;metry;metrowie;metrowi;metrami;metrom;metra;metr;metrze
+km;kilometrach;kilometra;kilometrowi;kilometrze;kilometry;kilometr;kilometrami;kilometrów;kilometrom;kilometrem
+tzw;tak zwany
+godz;godzinie;godzinę;godzinom;godziny;godzino;godziną;godzinami;godzin;godzinach;godzina
+l;litry;litrom;litrze;litrami;litrach;litra;litrowi;litrem;litrów;litr
+św;świętsze;świętsi;najświętszego;święte;najświętsi;świętsza;świętszym;świętszego;świętszą;święci;najświętszy;świętemu;świętą;święto;świętych;najświętszymi;święty;świętego;świętszy;świętszemu;najświętszych;świętymi;najświętsza;święta;świętej;świętszymi;najświętszemu;świętszych;najświętsze;świętszej;najświętszej;najświętszym;świętym;najświętszą
+prof;profesor;profesorowi;profesorem;profesorom;profesorów;profesorze;profesorzy;profesorowie;profesora;profesory;profesorami;profesorach
+pkt;punkcie;punktach;punktami;punktu;punktów;punkt;punkty;punktem;punktom;punktowi
+itp;i tym podobne
+mld;miliardem;miliardom;miliardach;miliardy;miliardzie;miliardowi;miliardami;miliarda;miliard;miliardów
+br;bieżącego roku
+cm;centymetr;centymetra;centymetrowi;centymetrze;centymetrom;centymetrów;centymetrami;centymetrem;centymetry;centymetrach
+im;imienia
+ha;hektary;hektarami;hektarowi;hektarze;hektarem;hektarom;hektarach;hektarów;hektar;hektara
+ks;księdze;księżach;księżom;księdzem;księże;księża;ksiądz;księżmi;księży;księdzu;księdza
+itd;i tak dalej
+ds;do spraw
+kg;kilogramie;kilogramów;kilogram;kilogramowi;kilogramem;kilogramach;kilograma;kilogramom;kilogramami;kilogramy
+dr;doktora;doktorze;doktorowi;doktorach;doktorem;doktorowie;doktorom;doktorami;doktor;doktorzy;doktory;doktorów
+gen;generał;generałami;generale;generałów;generałowie;generały;generała;generałach;generałem;generałom;generałowi
+woj;województwie;województwach;województwom;województwo;województwami;województwa;województwu;województwem;województw
+pt;pod tytułem
+pn;pod nazwą
+poz;pozycjo;pozycję;pozycjach;pozycji;pozycyj;pozycjami;pozycją;pozycjom;pozycja;pozycje
+dz.u;dziennik ustaw
+tj;to jest
+del;delegowane;delegowanymi;delegowanych;delegowano;delegowany;delegowaną;delegowani;delegowanym;delegowana;delegowanej;delegowanego;delegowanemu
+wyd;wydania;wydanie;wydaniu;wydaniach;wydaniom;wydaniami;wydań;wydaniem
+ksh;kodeksu spółek handlowych
+kc;kodeksu cywilnego
+sygn;sygnatura;sygnaturo;sygnatury;sygnaturą;sygnaturom;sygnaturami;sygnaturę;sygnatur;sygnaturach;sygnaturze
+kpc;kodeksu postępowania cywilnego
+ozn;oznaczenie;oznaczeń;oznaczeniami;oznaczeniom;oznaczenia;oznaczeniach;oznaczeniu;oznaczeniem
+jedn;jednolite;jednolitym;jednolitych;jednolito;jednolitą;jednolitymi;jednolitej;jednolici;jednolity;jednolita;jednolitego;jednolitemu
+par;paragrafie;paragrafowi;paragrafami;paragrafów;paragraf;paragrafu;paragrafach;paragrafem;paragrafom;paragrafy
+rep;repertorium;repertoriami;repertoriom;repertoria;repertoriów;repertoriach
