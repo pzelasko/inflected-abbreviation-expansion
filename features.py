@@ -1,4 +1,5 @@
 # Represent each sentence as a sequence of numbers corresponding to morphosyntactic tag of each word
+import pickle
 
 import numpy as np
 
@@ -21,7 +22,7 @@ def featurize_label(tags, label2idx):
     return ohe_label
 
 
-def make_feature_converters(prepared_sentences):
+def make_feature_converters(prepared_sentences, dump_path=None):
     # Find all the tags that appear in the inputs (features) and the outputs (target_tags)
     features = list(sorted(set(item[1] for s in prepared_sentences for item in s[0]))) + ['UNK']
     target_tags = list(sorted(set(s[1][1] for s in prepared_sentences)))
@@ -36,4 +37,13 @@ def make_feature_converters(prepared_sentences):
     label2idx = dict(zip(target_tags, range(len(target_tags))))
     idx2label = target_tags
 
+    if dump_path is not None:
+        with open(dump_path, 'wb') as f:
+            pickle.dump((features2idx, idx2features, label2idx, idx2label), f)
+
     return features2idx, idx2features, label2idx, idx2label
+
+
+def load_feature_converters(path):
+    with open(path, 'rb') as f:
+        return pickle.load(f)

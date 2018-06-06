@@ -71,7 +71,3 @@ def tag_uri_and_name(elem):
         uri = None
         tag = elem.tag
     return uri, tag
-
-
-def ncp_to_sentences(path, words_with_abbreviations):
-    return list(make_sents_iterator(path, words_with_abbreviations))

@@ -17,16 +17,21 @@ parser = argparse.ArgumentParser(
     description="Script for training the inflected abbreviation expansion BLSTM model."
 )
 parser.add_argument("pickled_sentences")
+parser.add_argument("output_features")
 parser.add_argument("output_model")
 args = parser.parse_args()
 
 # Load the train/valid dataset
 # 'psc_tagged_sentences.pkl.gz' => args.pickled_sentences
-with gzip.open(args.pickled_sentences, 'rb') as sents_f:
+opener = gzip.open if args.pickled_sentences.endswith('.gz') else open
+with opener(args.pickled_sentences, 'rb') as sents_f:
     interesting_sents = pickle.load(sents_f)
 random.shuffle(interesting_sents)
 
-features2idx, idx2feature, label2idx, idx2label = make_feature_converters(interesting_sents)
+features2idx, idx2feature, label2idx, idx2label = make_feature_converters(
+    interesting_sents,
+    dump_path=args.output_features
+)
 
 # Convert the textual dataset to one-hot-encoded features
 y = []

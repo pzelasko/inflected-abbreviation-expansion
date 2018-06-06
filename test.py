@@ -6,22 +6,23 @@ from keras.preprocessing.sequence import pad_sequences
 from keras.models import load_model
 
 from data import retrieve_abbreviable_words
-from features import featurize, featurize_label, make_feature_converters
+from features import featurize, featurize_label, load_feature_converters
 
 parser = argparse.ArgumentParser(
     description="Script for the inflected abbreviation expansion BLSTM model evaluation."
 )
 parser.add_argument("pickled_sentences")
+parser.add_argument("features")
 parser.add_argument("abbreviations")
 parser.add_argument("input_model")
 args = parser.parse_args()
 
 words_with_abbreviations = retrieve_abbreviable_words(args.abbreviations)
 
-with open(args.pickled_sentences) as f:
+with open(args.pickled_sentences, 'rb') as f:
     ncp_sentences = pickle.load(f)
 
-features2idx, idx2feature, label2idx, idx2label = make_feature_converters(ncp_sentences)
+features2idx, idx2feature, label2idx, idx2label = load_feature_converters(args.features)
 
 eval_model = load_model(args.input_model)
 
