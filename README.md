@@ -12,7 +12,7 @@ Complementary repository for the paper ["Expanding Abbreviations in a Strongly I
 
 - Download [PSC](http://clip.ipipan.waw.pl/PSC) and [NCP](http://clip.ipipan.waw.pl/NationalCorpusOfPolish) datasets.
 
-- run `prepare_dataset.py` on both datasets
+- run `prepare_dataset.py` on both datasets (might take a while)
 
 - the default abbreviation set with acceptable expansions in provided in file `abbreviations_list.txt`
 

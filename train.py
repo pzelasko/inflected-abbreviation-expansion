@@ -22,7 +22,6 @@ parser.add_argument("output_model")
 args = parser.parse_args()
 
 # Load the train/valid dataset
-# 'psc_tagged_sentences.pkl.gz' => args.pickled_sentences
 opener = gzip.open if args.pickled_sentences.endswith('.gz') else open
 with opener(args.pickled_sentences, 'rb') as sents_f:
     interesting_sents = pickle.load(sents_f)
