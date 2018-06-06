@@ -1,7 +1,7 @@
 import argparse
 import pickle
 
-from data import make_sents_iterator, retrieve_abbreviable_words
+from data import sentences_with_abbreviations, retrieve_words_to_abbreviate
 
 parser = argparse.ArgumentParser(
     description="Read decompressed NCP (NKJP) or PSC dataset directory "
@@ -13,9 +13,9 @@ parser.add_argument("output")
 args = parser.parse_args()
 
 sentences = list(
-    make_sents_iterator(
+    sentences_with_abbreviations(
         args.dataset_path,
-        retrieve_abbreviable_words(args.abbreviations_list)
+        retrieve_words_to_abbreviate(args.abbreviations_list)
     )
 )
 
